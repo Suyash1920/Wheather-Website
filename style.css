@@ -1,0 +1,86 @@
+
+* {
+    box-sizing: border-box;
+    font-family: 'Baloo 2', sans-serif;
+}
+body {
+    /* background: linear-gradient(100deg,#99aa59, #64bc80); */
+    /* background: linear-gradient(100deg,#ef5e5e, #ebdf5b); */
+    background-image: linear-gradient(to right, #b6fbff, #83a4d4);
+
+
+
+    font-family: 'Baloo 2', sans-serif;
+    min-height: 100vh;
+}
+nav{
+    background-color:  black;
+}
+.container-fluid{
+   
+    background-color:  #3f85ee;
+    color: aliceblue;
+}
+a.navbar-brand {
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    font-weight: bolder;
+}
+#submit{
+    color: rgb(0, 0, 0);
+    background-color: #246ddb;
+    
+}
+#submit:hover{
+    background-color: rgb(177, 211, 125);
+}
+
+.nav-item>a{
+    font-weight: 400;
+    font-family: 'Baloo 2', sans-serif;
+}
+#guide{
+    font-weight: 300;
+    color: black;
+}
+#head{
+    font-weight: bolder;
+    font-style: italic;
+}
+#temphead{
+    font-family: 'Baloo 2', sans-serif;
+    font-weight: 300;
+    font-style:normal;
+}
+.card{
+    background-color: #b32727;
+}
+.card-header.py-3 {
+    background-color: #3f85ee;
+}
+.text-bg-primary{
+    background-color: #3f85ee;
+}
+.card-body {
+    background-color: lightyellow;
+    font-weight: 550;
+    font-family: ui-sans-serif;
+}
+#sign{
+    background-color: #75a6ee;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
+h2.display-6.text-center.mb-4 {
+    font-weight: 350;
+    font-family: ui-sans-serif;
+    font-style: italic;
+}
+.text-start{
+    background-color: cornsilk;
+}
+footer{
+    background-color: #3f85ee;
+    color: white;
+    text-align: center;
+}
